@@ -1,3 +1,7 @@
+o_cludo_platform:
+    resource: "@OCludoPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
